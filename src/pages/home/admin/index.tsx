@@ -1,9 +1,9 @@
-import Home from "../index";
+import Layout from "../../components/Layout";
 
 export default function Admin() {
-    return (
-       <Home setListMenu={3}> 
-        <>Admin</> 
-       </Home>
+    return ( 
+        <Layout>
+            <h1>Admin</h1>
+        </Layout>
     )
 }

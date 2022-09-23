@@ -1,9 +1,9 @@
-import Home from "../index";
+import Layout from "../../components/Layout";
 
 export default function Dashboard() {
-    return (
-       <Home setListMenu={2}> 
-        <>Dashboard</> 
-       </Home>
+    return ( 
+        <Layout>
+            <h1>Dashboard</h1>
+        </Layout>
     )
 }

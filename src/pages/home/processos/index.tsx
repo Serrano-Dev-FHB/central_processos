@@ -1,9 +1,9 @@
-import Home from "../index";
+import Layout from "../../components/Layout";
 
 export default function Processos() {
-    return (
-       <Home setListMenu={1}> 
-        <>Processos</> 
-       </Home>
+    return ( 
+        <Layout>
+            <h1>Processos</h1>
+        </Layout>
     )
 }
