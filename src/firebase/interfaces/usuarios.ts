@@ -1,5 +1,5 @@
 interface IUsuarios {
-    uuid?: String
+    id?: String
     nome: String
 }
 
